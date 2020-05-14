@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet"> 
+    <title>Calculadora-Triangulo</title>
+
+  <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />  
+</head>
+<body">
+
+<header class="masthead bg-primary text-white text-center">
+  <h2>Triangulo</h2>
+</header>
+    <!-- Navigation-->
+       <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="../../index.html">SiteWeb Personal</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="triangulo.html">Triangulo</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cuadrado.html">Cuadrado</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="circulo.html">Circulo</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="rectangulo.html">Rectangulo</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="pentagono.html">Pentagono</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cono.html">Cono</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cubo.html">Cubo</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cilindro.html">Cilindro</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../../web.html">Practicas</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <section class="page-section portfolio">
+      <div class="container">
+          
+          <article>
+              <div class="container">
+                  <h3 class="logo">Triangulo</h3>
+                  <h3 class="xd">Area</h3>
+                  <div class="contact-wrapper">
+                  <div class="box">
+                        <form>
+                            <p>
+                                <label>Ingrese la base</label>
+                                <input type="text" id="base" placeholder="base:">
+                            </p>
+                            <p>
+                                <label>Ingrese la altura</label>
+                                <input type="text" id="altura" placeholder="altura:">
+                            </p>
+                            <p>
+                                <input class="block" type="button" value="calcular" onclick="areaT()">
+                            </p>
+                            <p>
+                                <label>Resultado</label>
+                                <input type="text" id="resultado">
+                            </p>
+                        </form>
+                    </div>
+                  </div>
+              </div>
+              <div class="container">
+                <h3 class="xd">Perimetro</h3>
+                  <div class="contact-wrapper">
+                      <div class="box">
+                        <form>
+                            <p>
+                                <label>Ingrese un lado</label>
+                                <input type="text" id="lado" placeholder="Lado:">
+                            </p>
+                            <p>
+                                <input type="button" value="calcular" onclick="perimetroT()">
+                            </p>
+                            <p>
+                                <label>Resultado</label>
+                                <input type="text" id="resultadoP">
+                            </p>   
+                        </form>
+                      </div>
+                  </div>
+              </div>
+          </article>
+      </div>
+        
+          
+    </section>  
+    <!-- Copyright Section-->
+    <section class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Your Website 2020</small></div>
+    </section> 
+<script src="../../js/scripts.js"></script>
+  <!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Contact form JS-->
+<script src="../../assets/mail/jqBootstrapValidation.js"></script>
+<script src="../../assets/mail/contact_me.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
